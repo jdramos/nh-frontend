@@ -5,7 +5,7 @@ function getToken() {
 }
 
 export async function getLeads() {
-  const res = await fetch(API_URL, {
+  const res = await fetch(`${API_BASE_URL}/api/leads`, {
     headers: {
       Authorization: `Bearer ${getToken()}`,
     },
