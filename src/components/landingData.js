@@ -27,12 +27,12 @@ export const benefits = [
 export const plans = [
   {
     name: "Dominio Básico",
-    price: "Desde $14/año",
+    price: "Desde $20/año",
     items: ["Registro de dominio", "Soporte básico", "Renovación anual"],
   },
   {
     name: "Correo Empresarial",
-    price: "Desde $5/mes",
+    price: "Desde $10/mes",
     items: ["Correo con tu dominio", "Acceso web y móvil", "Imagen profesional"],
     highlighted: true,
   },
